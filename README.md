@@ -11,3 +11,6 @@
  - Centralizzare la Navbar grazie a un Layout
  - Gestire la classe active
  - Popolare la pagina dei post con https://jsonplaceholder.typicode.com/posts
+
+# Nota:
+Questo è solo un progetto di esercitazione con lo scopo di interagire con react-router nella creazione dei un vero è proprio layout durante la progettazione UI visto che mi sono dedicato alla compresione del suo operato su come poi dopo devo organizzare il progetto visto che sto imparando.
