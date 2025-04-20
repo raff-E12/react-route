@@ -75,6 +75,16 @@
     margin-right: -15px;
     margin-left: -15px;
   }
+
+  .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    text-transform: capitalize;
+  }
+
   .col {
     flex: 1;
     padding-right: 15px;

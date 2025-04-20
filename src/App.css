@@ -70,6 +70,12 @@ h1, h2, h3 {
     text-align: center;
 }
 
+.news {
+    padding: 40px 20px;
+    background-color: var(--info);
+    text-align: center;
+}
+
 .posts-main {
     padding: 40px 20px;
     background-color: var(--primary);

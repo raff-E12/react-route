@@ -5,6 +5,10 @@ import StaticLayout from './assets/layout/StaticLayout'
 import AboutPage from './assets/pages/AboutPage'
 import PostsPage from './assets/pages/PostsPage'
 import ContactPage from "./assets/components/ContactsSection"
+import NewsPages from './assets/components/NewsPages'
+
+// Funzionamento delle route specifiche per ogni tipo
+// di percorso in pagina.
 
 function App() {
   return (
@@ -16,6 +20,7 @@ function App() {
            <Route path={'/posts'} element={<PostsPage />} />
            <Route path={'/contact'} element={<ContactPage />} />
          </Route>
+         <Route path='/news/:id/:name' element={<NewsPages />}/>
       </Routes>
     </>
   )
